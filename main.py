@@ -21,11 +21,11 @@ def load_files():
 
 def render(game,current):
     c = game[current]
-    print("You are at the " + c["name"])
+    print("You are in" + c["name"])
     print(c["desc"])
 
 def get_input():
-    response = input("What do you want to do? ")
+    response = input("Where to next?")
     response = response.upper().strip()
     return response
 
@@ -49,7 +49,7 @@ def main():
 
         for e in end_game:
             if current == e:
-                print("You win!")
+                print()
                 break #break out of the while loop
 
         response = get_input()

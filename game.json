@@ -1,21 +1,81 @@
 {
 	"START": {
-		"name": "",
-		"desc": "",
+		"name": "\n\nYOUR FAVORITE SPOT",
+		"desc": "\nYou awaken, feeling refreshed. \n\nBlinking your eyes, you adjust your vision to the darkness surrounding. You look behind to see a sliver of light coming in from \nbeyond.\n\nWhere were you again? \n\nSniffing about, your nose picks out the familiar scent of your Big Friend. You feel beneath you, the squish of Big Friend's leastfavorite (but softest) covering. \n\nOf course! How could you forget, this is your Favorite Spot! \n\n...or at least, it has been as of late. \n\nIt's about time I go patrol my territory, there's so much to check up on!\n\n",
 		"exits": [
 			{
-				"exit": "EXIT1",
+				"exit": "EXIT",
 				"target": "LOCATION2"
 			}
 		]
 	}
 	,"LOCATION2": {
-		"name": "",
-		"desc": "",
+		"name": "\n\nTHE NEST",
+		"desc": "\n\nYou exit the confines of your spot to the light space outside. Looking back briefly, you see the tiny space you wedged yourself \nthrough hours earlier to take your morning nap.\n\nBig Friend always makes sure to leave it open before she leaves (she is good). \n\nYou adjust your eyes to focus in on the area.\nOver there, on the edge of Big Friend's favorite sleeping spot, is one of several places you like to scratch. You approach to \nadmire your work: deep marks in the wood, the slivers of remains on the floor surrounding. \n\nYes, this is a good one. You've been working at this one for a while. \n\nYou take a moment to add to your ever-expanding work of art, and then another to lick the fragments clean from your claws. \nNo more dawdling, it's time to move on!\n\n\n\n[exit1]",
 		"exits": [
 			{
 				"exit": "EXIT1",
-				"target": "START"
+				"target": "LOCATION3"
+			}
+		]
+	}
+	,"LOCATION3": {
+		"name": "\n\nTHE LONG WAY",
+		"desc": "\n\nI can't put my paw on it, but his place makes me nervous.\n\nIt's too late to go back now, I need to move forward quickly!\n\n\n\n(exit2)",
+		"exits": [
+			{
+				"exit": "EXIT2",
+				"target": "LOCATION4"
+			}
+		]
+	}
+	,"LOCATION4": {
+		"name": "\n\nTHE FEEDING",
+		"desc": "\n\nAhh, here we are. You've been looking forward to this since your last feeding (it feels like its been a lifetime).You were sure \nBig Friend would forget about you before leaving for the day, but again, she is good.\n\nYou take some time to graze, eating only a few pieces. You have to save some for later just in case Big Friend gets lost and doesn't make it back (she hasn't let you down yet, but you can never be too careful).\n\nAs you walk away, you think better of it and return to scratch around the perimeter of your food to hide it.\n\n...Just in case\n\nAfter a good minute of digging,you are confident nothing will be able to locate your stash. Now it's time to hunt!\n\n\n\n[exit3]",
+		"exits": [
+			{
+				"exit": "EXIT3",
+				"target": "LOCATION5"
+			}
+		]
+	}
+	,"LOCATION5": {
+		"name": "\n\nTHE HUNTING GROUNDS",
+		"desc": "\n\nYou glance over at the big cushion in the corner of the room, approaching cautiously.\n\nYou sniff the corner...\n\nHmmm...\n\nYou rub your face on the cushion and spend a few moments scratching at the plush surface.\n\nThis one feels nice on your paws.You will remember this.\n\nIt's time to stretch your body. You have to remain limber in case of an attack!\nUsing your keen senses, you pick out one of your most prized possessions across the room. You see it out of the corner of your eye, a bright \ngreen ball of crinkly goodness.\n\nIn merely a breath, you pounce on your prey.\n\nThe sweet smell of catnip slinks through your nose, into your whole being. As you sink your teeth into the crinkly flesh of the \nball, you feel an overwhelming sense of bliss\n\nEuphoria\n\n...MADNESS\n\nYou almost lose yourself in the hunt, until you hear a rustling from near the Barrier.\n\nYou look up to see the blowing of the hanging cloth nearest the Barrier. Is Big Friend home?\n\nNo...The sky hasn't turned dark yet.\n\nAs you approach you see the Barrier has been left ajar. How odd, you've never been able to explore the space beyond before...\n\nIt couldn't hurt to check it out, could it?\n\n\n\n[exit4] ",
+		"exits": [
+			{
+				"exit": "EXIT4",
+				"target": "LOCATION6"
+			}
+		]
+	}
+	,"LOCATION6": {
+		"name": "\n\nTHE SPACE BEYOND",
+		"desc": "\n\nYou squeeze through the door with ease, leaving the hanging cloth billowing behind you. Looking around, you feel a sense of \nexcitement you've never felt in your short time in this life\n\nA multitude of sickly-sweet scents bombard your nose, \n\nA cacophony of sounds makes you whip your head in every direction.\n\nWhere are you supposed to look? What should you do next?\n\nToo be frank, it's almost too much to handle.\nYou had become used to the swirling movement of light and hues from behind the Barrier, but this...\n\nTHIS...\n\nThis is a sort of feeling you didn't know existed.\n\nYou focus in on a particularly large mass you had admired from behind the Barrier for some time. It was tall, with seemingly a \nlot of movement towards the top of its body. You have seen a lot of prey going to and from it, disappearing and reappearing from the opposite side.\n\nYou feel the need to get closer.\n\n\n\n[exit5]",
+		"exits": [
+			{
+				"exit": "EXIT5",
+				"target": "LOCATION7"
+			}
+		]
+	}
+	,"LOCATION7": {
+		"name": "\n\nTHE ???",
+		"desc": "\n\nYou approach the bottom of the mass and gaze upward. It's so much larger up close than you had thought. From behind the Barrier, you could've sworn you could reach the top in one leap.\n\nYou turn to look back towards the boundary of your territory. Fear wells up inside you as you realize how far you'd gone beyond.\n\nWho could this belong to? Do they know you're here?\n\nWould they be angry if they knew?\n\nYou try to shake this sense from your body, but to no avail. Better make this quick.\n\nYou loop around the back of the tree, where you see a small opening, just big enough for you to fit through\n\nYou approach the edge of the hole silently, creeping low to the ground.\n\nThat's when you smell it. A pungent, musty odor wafts up from the hole. You recoil, glancing back through squinted eyes...\n\nWhere you see a cluster of reflective, beady eyes staring back at you that were not there a moment before.\n\nYou feel your body freeze as the you lock eyes with the dark mass. After a few moments, you hear a series of low growls emanating from the hole slowly getting louder. The hair on your back stands on end as you reflexively growl and hiss back.\n\nAs the cumulative snarling intensifies, the mass begins to move it's way out of the hole. You turn on your haunches and set a course for the Barrier as fast as your legs can take you.\n\nYou push your way through the crack in the Barrier, not taking the time to glance back to see if you were followed through.\n\nYou have to think quickly\n\nCutting across The Hunting Grounds, through The Long Way, pushing your way into the Nest\n\nSqueezing your way back into your Favorite Spot, you freeze to listen for any oncoming danger.\n\n\n\n[exit6]",
+		"exits": [
+			{
+				"exit": "EXIT6",
+				"target": "END"
+			}
+		]
+	}
+	,"END": {
+		"name": "\n\nYOUR FAVORITE SPOT",
+		"desc": "\n\n\nMoments pass...\n\nMany moments pass...\n\nMany many many moments pass in silence, until you hear a thud followed by a few more thuds.\n\nFor just a moment, you fear you have been discovered by those...things.\n\nWhatever they were.\n\nThen you hear the familiar noises of your Big Friend. She always makes these weird, squeaky noises when she wants my attention.\n\nYou know you are safe when Big Friend is here\n\nSlinking from the inside of your Favorite Spot, you stretch your body and yawn. It's been quite the day. Not having your \nafternoon nap has left you feeling worn and hungry.\n\nOh well. Big Friend is home, you're safe, and it's time for your evening feeding. You'll tell her all about it another time.\n\n\n\n[END]",
+		"exits": [
+			{
+				"exit": "QUIT",
+				"target": "QUIT"
 			}
 		]
 	}
